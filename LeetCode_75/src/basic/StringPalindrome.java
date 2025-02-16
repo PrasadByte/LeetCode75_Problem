@@ -1,20 +1,17 @@
 package basic;
 
 public class StringPalindrome {
-	public static isPalindrome(String s) {
-		int i = 0, j = s.length() - 1;
-		while (i < j) {
-			if (s.charAt(i) != s.charAt(j)) {
-				return false;
-			}
-			i++;
-			j--;
-		}
-		return true;
-	}
-	public static void main(String[] args) {
-		String s = "madam";
-        System.out.println((isPalindrome(s) ? "Yes" : "No"));))
-	}
 
+	public static void main(String[] args) {
+		String str = "madam";
+		String reverse = "";
+		for (int i = str.length() - 1; i >= 0; i--) {
+			reverse = reverse + str.charAt(i);
+		}
+		if (str.equals(reverse)) {
+			System.out.println("String is palindrome");
+		} else {
+			System.out.println("String is not palindrome");
+		}
+	}
 }
