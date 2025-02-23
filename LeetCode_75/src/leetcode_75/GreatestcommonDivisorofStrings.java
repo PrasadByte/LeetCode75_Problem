@@ -1,4 +1,4 @@
-package Leetcode_75;
+package leetcode_75;
 
 public class GreatestcommonDivisorofStrings {
 	public static String gcdOfStrings(String str1, String str2) {
