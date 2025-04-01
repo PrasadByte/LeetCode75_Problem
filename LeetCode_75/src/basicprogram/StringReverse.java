@@ -30,8 +30,8 @@ public class StringReverse {
 		String str = "Hello World";
 		System.out.println(reverse(str));
 		//Output: dlroW olleH
-		System.out.println(StringReverse(str));
-		StringReverse(str);
+		// System.out.println(StringReverse(str));
+		// StringReverse(str);
 	}
 
 }
