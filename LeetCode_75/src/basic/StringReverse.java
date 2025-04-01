@@ -27,10 +27,11 @@ public class StringReverse {
 
 	public static void main(String[] args) {
 		
-		String str = "Hello World";
-		System.out.println(reverse(str));
+		//StringReverseString str = "Hello World";
+		//System.out.println(reverse(str));
 		// Output: dlroW olleH
-		System.out.println(StringReverse(str));
+		//System.out.println(StringReverse(str));
+		//StringReverse(str);
 	}
 
 }

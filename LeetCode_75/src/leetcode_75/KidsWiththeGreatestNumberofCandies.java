@@ -1,6 +1,7 @@
 package leetcode_75;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class KidsWiththeGreatestNumberofCandies {
@@ -11,7 +12,7 @@ public class KidsWiththeGreatestNumberofCandies {
                 max = i;
             }
         }//for boolean array
-        List<Boolean> res = new ArrayList<>();
+        List<Boolean> res = new LinkedList<>();
         for (int i : candies) {
             if (i + extraCandies >= max) {
                 res.add(true);

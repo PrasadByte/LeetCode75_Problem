@@ -17,6 +17,7 @@ public class fibonaciSeries {
             num1 = num2;
             num2 = sum;
         }
+        
     }
 
     public static void main(String[] args) {
