@@ -1,4 +1,4 @@
-package basic;
+package basicprogram;
 
 public class ReverseString {
 	

@@ -1,4 +1,4 @@
-package basic;
+package basicprogram;
 
 public class StringReverse {
 	
@@ -27,11 +27,11 @@ public class StringReverse {
 
 	public static void main(String[] args) {
 		
-		//StringReverseString str = "Hello World";
-		//System.out.println(reverse(str));
-		// Output: dlroW olleH
-		//System.out.println(StringReverse(str));
-		//StringReverse(str);
+		String str = "Hello World";
+		System.out.println(reverse(str));
+		//Output: dlroW olleH
+		System.out.println(StringReverse(str));
+		StringReverse(str);
 	}
 
 }
