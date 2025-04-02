@@ -21,7 +21,7 @@ public class StringReverse {
 			charArray[end] = temp;
 			end--;
 			start++;
-		}
+		} //both are same
 		return new String(charArray);
 	}
 
