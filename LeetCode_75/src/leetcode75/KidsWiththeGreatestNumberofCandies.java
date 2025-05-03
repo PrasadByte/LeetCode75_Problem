@@ -1,6 +1,5 @@
-package leetcode_75;
+package leetcode75;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
