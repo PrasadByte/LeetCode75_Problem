@@ -13,7 +13,7 @@ public class TwoSum {
             // If complement is found in the map, return indices
             if (map.containsKey(complement)) {
                 return new int[]{map.get(complement), i};
-            }
+            }//find the complement of the current number
 
             // Store the current number and its index in the map
             map.put(nums[i], i);
