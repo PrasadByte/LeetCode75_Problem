@@ -1,4 +1,4 @@
-package leetcode75;
+package leetcod_75;
 
 import java.util.HashSet;
 import java.util.Scanner;

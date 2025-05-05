@@ -1,4 +1,4 @@
-package leetcode75;
+package leetcod_75;
 
 public class IncreasingTripleSubSqence {
     public  static  boolean increasingTriplet(int[] nums) {

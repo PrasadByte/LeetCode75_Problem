@@ -10,7 +10,7 @@ public class fibonaciSeries {
     public static void fibonaciee(int num) {
         int first = 1;
         int second = 2;
-        int sum = 0;
+      int sum = 0;
         for (int i = 1; i <= num; i++) {
             System.out.println(first);
             sum = first + second;
@@ -36,4 +36,5 @@ public class fibonaciSeries {
             System.out.println(fibonacci(i));
         }
     }
+    
 }
