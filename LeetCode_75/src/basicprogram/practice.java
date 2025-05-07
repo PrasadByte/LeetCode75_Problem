@@ -1,21 +1,14 @@
 package basicprogram;
 
-import java.util.Scanner;
-
 public class practice {
-
-    public static String ReverseString(String str) {
-        StringBuilder sb = new StringBuilder(str);
-        sb.reverse();
-        return sb.toString();
-    }
-
+    public static int facttorial(int num){
+        int temp=1;
+        for (int i =1; i<=num;i++){
+            temp *=i;
+        }
+        return temp;
+    } 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the string to reverse: ");
-        String str = sc.nextLine();
-        String reversedString = ReverseString(str);
-        System.out.println("Reversed String: " + reversedString);
-
+        System.out.println(facttorial(5));
     }
 }
