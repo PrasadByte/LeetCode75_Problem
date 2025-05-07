@@ -24,7 +24,7 @@ public class fibonaciSeries {
             return num;
         }
         return fibonacci(num-1)+fibonacci(num-2);
-    }
+    }//the code modifeid 
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
