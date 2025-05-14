@@ -26,7 +26,7 @@ public class AddTwoNumbers {
             // Add value from l1 if available
             if (l1 != null) {
                 sum += l1.val;
-                l1 = l1.next; // Move to next node
+                l1 = l1.next; //Move to next node
             }
 
             // Add value from l2 if available
@@ -39,12 +39,12 @@ public class AddTwoNumbers {
             carry = sum / 10;
             int digit = sum % 10; // Get the digit to store in the result
 
-            // Create a new node with the digit and link it
+            //Create a new node with the digit and link it
             current.next = new ListNode(digit);
             current = current.next; // Move to the new node
         }
 
-        // Return the next of dummy node which is the actual result head
+        //Return the next of dummy node which is the actual result head
         return dummyHead.next;
     }
 
