@@ -1,4 +1,4 @@
-package leetcod_75;
+package arrays;
 
 import java.util.HashMap;
 
