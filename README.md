@@ -1,2 +1,0 @@
-# leedcode problem #
-.bin
