@@ -1,27 +1,13 @@
 package leetcod_75;
 
+import java.util.Scanner;
 
 public class Practice {
-    public static boolean  Increasing(int num[]){
-        int first = Integer.MAX_VALUE;
-        int second = Integer.MAX_VALUE;
-        for(int n : num) {
-            if(n<=first){
-                first = n;
-            }
-            else if(n<=second){
-                second=n;
-            }
-            else{
-                return true;
-            }
-          
-        }
-        return false;
-    }
-    public static void main(String[] args) {
-        int [] arr = {2,1,5,0,4,6};
-        System.out.println(Increasing(arr));
-    }
+   public static void main(String[] args) {
+	Scanner input=new Scanner(System.in);
+	System.out.println("Enter your name");
+	String name =input.nextLine();
+	System.out.println("Good Night "+name);
+}
 }
 
