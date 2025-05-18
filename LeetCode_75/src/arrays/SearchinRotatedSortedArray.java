@@ -38,3 +38,4 @@ public class SearchinRotatedSortedArray {
 			System.out.println("Element found at index: " + result);
 		}
 	}
+}
