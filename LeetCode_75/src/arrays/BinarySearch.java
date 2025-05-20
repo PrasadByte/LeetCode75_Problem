@@ -23,7 +23,7 @@ public class BinarySearch {
 	        // If we reach here, then element was
 	        // not present
 	        return -1;
-	    }
+	    }// motuu code changess
 
 	    // Driver code
 	    public static void main(String args[])
