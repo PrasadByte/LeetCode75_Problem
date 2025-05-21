@@ -11,27 +11,27 @@ public class BinarySearch {
 	            if (arr[mid] == x)
 	                return mid;
 
-	            // If x greater, ignore left half
-	            if (arr[mid] < x)
-	                left = mid + 1;
-
-	            // If x is smaller, ignore right half
-	            else
+	            // If x greater, ignore right half
+	            if (arr[mid] > x)
 	                right = mid - 1;
+
+	            // If x is smaller, ignore left half
+	            else
+	                left = mid + 1;
 	        }
 
 	        // If we reach here, then element was
 	        // not present
 	        return -1;
-	    }// motuu code changess
+	    }
 
 	    // Driver code
 	    public static void main(String args[])
 	    {
 	        BinarySearch ob = new BinarySearch();
-	        int arr[] = { 2, 3, 4, 10, 40 };
+	        int arr[] = { 2, 3, 4, 10, 40,50,70};
 	        int n = arr.length;
-	        int x = 10;
+	        int x = 4;
 	        int result = ob.binarySearch(arr, x);
 	        if (result == -1)
 	            System.out.println(
