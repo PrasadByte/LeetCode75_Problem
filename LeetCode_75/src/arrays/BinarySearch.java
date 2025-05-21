@@ -17,7 +17,7 @@ public class BinarySearch {
 
 	            // If x is smaller, ignore left half
 	            else
-	                left = mid + 1;
+	             left = mid + 1;
 	        }
 
 	        // If we reach here, then element was
