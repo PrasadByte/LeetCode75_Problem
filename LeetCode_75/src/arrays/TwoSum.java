@@ -14,7 +14,7 @@ public class TwoSum {
             if (map.containsKey(complement)) {
                 return new int[]{map.get(complement), i};
             }//find the complement of the current number
-
+            	// If not found, store the current number and its index
             // Store the current number and its index in the map
             map.put(nums[i], i);
         }
@@ -25,11 +25,11 @@ public class TwoSum {
     public static void main(String[] args) {
         TwoSum twoSum = new TwoSum();
         int[] nums = {2, 7, 11, 15};
-        int target = 9;
+        int target = 26;
         int[] result = twoSum.twoSum(nums, target);
 
         if (result.length == 2) {
-            System.out.println("Indices: [" + result[0] + ", " + result[1] + "]");
+            System.out.println("Indices: [" + result[0] + ", " + result[1 ] + "]");
         } else {
             System.out.println("No two sum solution found.");
         }

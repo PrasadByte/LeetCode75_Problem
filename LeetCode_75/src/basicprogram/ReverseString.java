@@ -26,7 +26,8 @@ public class ReverseString {
 		//reveserWithStringbuilder(p);
 		
 		int num=10;
-		if(num%2==0) {
+		if(num%2==0) 
+		{
 			System.out.println("even");
 		}
 		else {
