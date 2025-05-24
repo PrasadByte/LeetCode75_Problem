@@ -14,8 +14,7 @@ public class TwoSum {
             if (map.containsKey(complement)) {
                 return new int[]{map.get(complement), i};
             }//find the complement of the current number
-            	// If not found, store the current number and its index
-            // Store the current number and its index in the map
+            
             map.put(nums[i], i);
         }
 
