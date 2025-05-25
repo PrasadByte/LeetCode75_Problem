@@ -72,7 +72,7 @@ public class AddTwoNumbers {
         System.out.println(); // New line after printing list
     }
 
-    // Main method to test the solution
+  
     public static void main(String[] args) {
         // Input arrays representing two numbers in reverse order
         int[] num1 = {2, 4, 3}; // Represents 342

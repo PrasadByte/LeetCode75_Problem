@@ -1,7 +1,6 @@
 package arrays;
 
 import java.util.HashMap;
-import java.util.Hashtable;
 
 public class Practice {
 	public static int [] twoSum(int []num,int target) {
