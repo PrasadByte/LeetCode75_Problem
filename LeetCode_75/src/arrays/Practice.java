@@ -5,15 +5,15 @@ public class Practice {
 	public static int binarySearch(int num [],int target) {
 		int left =0;
 		int right = num.length-1;
-		while(left<right) {
-			int mid =left +(right -left);
+		while(left<=right) {
+			int mid =left +(right -left)/2;
 			if(num[mid]== target) {
 				return mid;
 			}
-			if(num[mid]>= right) {
-				mid = right -1;
+			if(num[mid]>= target) {
+				right = mid -1;
 			}else {
-				mid = left +1;
+				left = mid +1;
 						
 			}
 		}
@@ -24,9 +24,9 @@ public class Practice {
 		int target =4;
 		int result = binarySearch(arr, target);
 		if(result == -1) {
-			System.out.println("Index found at index "+ result);
+			System.out.println("Index niot found at index ");
 		}else {
-			System.out.println("Index Not found");
+			System.out.println("Index found at "+ result);
 		}
 	}
 
