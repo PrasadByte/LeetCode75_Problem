@@ -18,7 +18,7 @@ public class CharacterCounter {
     }
 
     public static void main(String[] args) {
-        String input = "hello";
+        String input = "prasad";
         Map<Character, Integer> occurrences = countCharacterOccurrences(input);
         System.out.println(occurrences); // Output: {h=1, e=1, l=2, o=1}
     }
