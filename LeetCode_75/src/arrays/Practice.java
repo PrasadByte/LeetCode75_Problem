@@ -11,7 +11,7 @@ public class Practice {
 			return countChar;
 		for (int i = 0; i < str.length(); i++) {
 			char currentChar = str.charAt(i);
-			countChar.put(currentChar, countChar.getOrDefault(countChar, 0) + 1);
+			countChar.put(currentChar, countChar.getOrDefault(currentChar, 0) + 1);
 		}
 		return countChar;
 	}
