@@ -1,6 +1,7 @@
 package oop_practice;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -49,6 +50,7 @@ public class ComparableDemo {
 		lapy.add(new Person("dell", 16,800));
 		
 		Comparator<Person>namecomparator = (d1 ,o2)-> d1.getName().compareTo(o2.getName());
+		Collections.sort(lapy,namecomparator);
 		for(Person lap : lapy) {
 			System.out.println(lap.getName()+ "  "+lap.getram()+"  "+lap.getPrice());
 		}
