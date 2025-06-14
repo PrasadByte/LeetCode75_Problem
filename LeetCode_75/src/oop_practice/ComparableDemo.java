@@ -34,6 +34,11 @@ public int getram() {
 public int getPrice() {
 	return price;
 }
+@Override
+public int compareTo(Person o) {
+	// TODO Auto-generated method stub
+	return 0;
+}
 	
 
 	
