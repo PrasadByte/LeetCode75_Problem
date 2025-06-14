@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Practice {
 	public static Map<Character, Integer> countCharacter(String str) {
-		Map<Character, Integer> countChar = new Hashtable();
+		Map<Character, Integer> countChar = new Hashtable<Character, Integer>();
 		if (str == null)
 			return countChar;
 		for (int i = 0; i < str.length(); i++) {
