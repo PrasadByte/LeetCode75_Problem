@@ -40,8 +40,6 @@ public int compareTo(Person o) {
 	return 0;
 }
 	
-
-	
 	
 }
 
