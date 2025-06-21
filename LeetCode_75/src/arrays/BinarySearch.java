@@ -30,7 +30,7 @@ public class BinarySearch {
 	    {
 	        BinarySearch ob = new BinarySearch();
 	        int arr[] = { 2, 3, 4, 10, 40,50,70};
-	        int n = arr.length;
+	       // int n = arr.length;
 	        int x = 4;
 	        int result = ob.binarySearch(arr, x);
 	        if (result == -1)
@@ -38,6 +38,6 @@ public class BinarySearch {
 	                "Element is not present in array");
 	        else
 	            System.out.println("Element is present at "
-	                               + "index " + result);
+	                               + "index " + result+" target element is "+x);
 	    }
 	}
