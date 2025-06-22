@@ -26,7 +26,7 @@ public class AddTwoNumbers {
             // Add value from l1 if available
             if (l1 != null) {
                 sum += l1.val;
-                l1 = l1.next; //Move to next node
+                l1 = l1.next;
             }
 
             // Add value from l2 if available
